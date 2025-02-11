@@ -5,13 +5,13 @@ import streamlit as st
 mappings = {
     '0': ['o', 'c', 'd'],
     '1': ['i', 'l'],
-    '2': ['s', 'z'],
+    '2': ['s', 'r', 'l', 'z'],
     '3': ['e'],
     '4': ['h', 'a', 'f', 'u', 'v', 'y'],
     '5': ['s', 'c', 'z'],
     '6': ['c', 'g', 'a'],
     '7': ['y', 't', 'f', 'l', 'j'],
-    '8': ['b', 'a'],
+    '8': ['b', 'k', 'a'],
     '9': ['g', 'q', 'c', 'p', 'a'],
     '%': ['b', 'p', 'q', 'd'],
     '"': ['u', 'v'],
@@ -41,4 +41,3 @@ if user_input:
     st.write("Possible Transpositions:")
     for result in results:
         st.write(result)
-        
